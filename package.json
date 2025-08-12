@@ -1,0 +1,24 @@
+{
+  "name": "webdesk",
+  "version": "1.0.0",
+  "description": "Electron Desktop Webpage",
+  "license": "ISC",
+  "author": "Frants Mitskun",
+  "type": "commonjs",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder"
+  },
+  "devDependencies": {
+    "electron": "^37.2.6",
+    "electron-builder": "^24.6.0"
+  },
+  "build": {
+    "appId": "com.example.webdesk",
+    "productName": "WebDesk",
+    "linux": {
+      "target": "AppImage"
+    }
+  }
+}
