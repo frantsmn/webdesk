@@ -1,0 +1,32 @@
+[
+  {
+    "name": "YouTube",
+    "icon": "youtube.svg",
+    "command": "youtube-tv-client"
+  },
+  {
+    "name": "Spotify",
+    "icon": "spotify.svg",
+    "command": "spotify"
+  },
+  {
+    "name": "Steam",
+    "icon": "steam.svg",
+    "command": "steam"
+  },
+  {
+    "name": "Kodi",
+    "icon": "kodi.svg",
+    "command": ""
+  },
+  {
+    "name": "Chrome",
+    "icon": "chrome.svg",
+    "command": "xdg-open https://google.com"
+  },
+  {
+    "name": "Terminal",
+    "icon": "terminal.svg",
+    "command": ""
+  }
+]
